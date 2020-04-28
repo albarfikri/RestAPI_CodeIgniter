@@ -94,7 +94,7 @@ class Kontak extends REST_Controller
 
     public function index_delete()
     {
-        $id = $this->delete('id');
+        $id = $this->delete('idkontak');
 
         // $this->some_model->delete_something($id);
         $where = [
